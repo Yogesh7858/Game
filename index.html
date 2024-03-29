@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Game</title>
+</head>
+<body>
+    <div class="body2">
+        <h1>BAT BOLL STUMP GAME</h1>
+        <div class="main">
+            <div class="input">
+                <input id="display" type="text" readonly>
+                <input id="display1" type="text" readonly>
+            </div>
+            <div class="container">
+                <button class="button" id="bat" onclick="computer('Bat')"></button>
+                <button class="button" id="boll" onclick="computer('Boll')"></button>
+                <button class="button" id="stump" onclick="computer('Stump')"></button>
+                <!-- <button class="button reset" onclick="reset()">Reset</button> -->
+            </div>
+            
+        </div>
+        <div class="final">
+        </div>
+        <div class="result">
+            <div id="won"></div>
+            <div id="lost"></div>
+            <div id="tie"></div>
+        </div>
+        <button class="button-reset" onclick="reset()">Reset</button>
+
+    </div>
+    
+    <script src="game.js"></script>
+    <!-- <link href="game.js"> -->
+</body>
+</html>
