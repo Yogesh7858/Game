@@ -65,7 +65,7 @@ h1{
     margin-left: 50%;
 }
 #bat{
-    background-image: url("C:/Users/Lenovo/Desktop/game/bat.jpeg");
+    background-image: url("./bat.jpeg");
     background-size: contain;
     border-radius: 5px;
     background-repeat: no-repeat;
@@ -73,14 +73,14 @@ h1{
     margin-left: 10%;
 }
 #boll{
-    background-image: url("C:/Users/Lenovo/Desktop/game/boll.jpeg");
+    background-image: url("./boll.jpeg");
     background-size: contain;
     border-radius: 5px;
     border: none;
     margin-left: -15%;
 }
 #stump{
-    background-image: url("C:/Users/Lenovo/Desktop/game/stump.jpeg");
+    background-image: url("./stump.jpeg");
     background-size: contain;
     border-radius: 5px;
     border: none;
